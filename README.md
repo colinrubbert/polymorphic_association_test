@@ -1,24 +1,10 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Test app for learning many-to-many polymorphic associations
 
-Things you may want to cover:
+**References**
+* [Polymorphic Associations in RoR: Part 1 - Introduction and how to create a basic Polymorphic Association](http://www.99linesofcode.com/polymorphic-associations-in-ruby-on-rails-part-1-introduction)
+* [Polymorphic Associations in RoR: Part 2 - Reverse Polymorphic Associations](http://www.99linesofcode.com/polymorphic-associations-in-ruby-on-rails-part-2-reverse-polymorphic-associations/)
+* [Polymorphic Associations in RoR: Part 3 - Many-to-Many Polymorphic Associations](http://www.99linesofcode.com/polymorphic-associations-in-ruby-on-rails-part-3-many-to-many-polymorphic-associations/)
+* [Rails Conf 2018 - Candy on Rails: Polymorphism & Rails 5 by Michael Cain](https://www.youtube.com/watch?v=CD_ye_9lvEM)
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
