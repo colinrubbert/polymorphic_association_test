@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Admit:</strong>
+  <%= @admission.admit_id %>
+</p>
+
+<p>
+  <strong>Admit type:</strong>
+  <%= @admission.admit_type %>
+</p>
+
+<%= link_to 'Edit', edit_admission_path(@admission) %> |
+<%= link_to 'Back', admissions_path %>

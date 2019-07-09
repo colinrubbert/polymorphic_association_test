@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Subject:</strong>
+  <%= @legal.subject %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @legal.body %>
+</p>
+
+<%= link_to 'Edit', edit_client_legal_path(@client, @legal) %> |
+<%= link_to 'Back', client_legals_path %>

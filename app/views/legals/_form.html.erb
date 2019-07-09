@@ -1,0 +1,28 @@
+<%= form_with(model: [@client, @legal], local: true) do |form| %>
+  <% if @legal.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@legal.errors.count, "error") %> prohibited this legal from being saved:</h2>
+
+      <ul>
+        <% @legal.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :subject %>
+    <%= form.text_field :subject %>
+  </div>
+
+  <div class="field">
+    <%= form.label :body %>
+    <%= form.text_area :body %>
+  </div>
+
+  <%= form.hidden_field :client_id, value: @client.id  %>
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
